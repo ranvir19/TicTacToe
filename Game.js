@@ -1,3 +1,7 @@
+let squares=["","","","","","","","",""];
+let board=["","","","","","","","",""];
+let winningCombonations=[];
+let previousTurn="O";
 let turn="X";
 let endGame=document.getElementById("end");
 
