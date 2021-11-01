@@ -11,7 +11,7 @@ for (let i=1;i<10;i++){squares[i-1]=document.getElementById(i);}
 
 function setSquare(i)
 {
-    if (board[i]==""){
+    if (board[i]=="" && check(board)==false){
         squares[i].innerHTML=turn;
         board[i]=turn;
         if (turn=="X"){turn="O";previousTurn="X";}
