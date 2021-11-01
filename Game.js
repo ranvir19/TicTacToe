@@ -4,10 +4,11 @@ let winningCombonations=[];
 let previousTurn="O";
 let turn="X";
 let endGame=document.getElementById("end");
+let refresher=document.getElementById("restart-game");
 
 for (let i=1;i<10;i++){squares[i-1]=document.getElementById(i);}
 
-
+function restart(){setTimeout('location.reload(true)');}
 
 function setSquare(i)
 {
